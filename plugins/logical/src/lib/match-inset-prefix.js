@@ -1,0 +1,1 @@
+export default /^inset-/i;
