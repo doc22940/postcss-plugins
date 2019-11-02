@@ -1,0 +1,14 @@
+node_modules
+/browser.*
+/cli.*
+/index.*
+/postcss.*
+package-lock.json
+*.log*
+*.result.css
+.*
+!.editorconfig
+!.gitignore
+!.rollup.js
+!.tape.js
+!.travis.yml
