@@ -1,0 +1,14 @@
+# https://docs.travis-ci.com/user/travis-lint
+
+language: node_js
+
+os:
+  - windows
+  - linux
+  - osx
+
+node_js:
+  - 8
+
+install:
+  - npm install --ignore-scripts
