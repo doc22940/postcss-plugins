@@ -1,0 +1,9 @@
+html.single-overflow {
+	overflow: hidden;
+}
+
+html.double-overflow {
+	overflow-x: hidden;
+	overflow-y: auto;
+	overflow: hidden auto;
+}
