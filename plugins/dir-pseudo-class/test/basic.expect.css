@@ -1,0 +1,71 @@
+[dir="ltr"] {
+	order: 0;
+}
+
+[dir="ltr"] test {
+	order: 1;
+}
+
+[dir="ltr"] test * {
+	order: 2;
+}
+
+[dir="ltr"] test * test {
+	order: 3;
+}
+
+[dir="ltr"] test {
+	order: 4;
+}
+
+[dir="ltr"] test test {
+	order: 5;
+}
+
+[dir="ltr"] test test {
+	order: 6;
+}
+
+[dir="ltr"]:root * {
+	order: 7;
+}
+
+html[dir="ltr"] * {
+	order: 8;
+}
+
+[dir="rtl"] {
+	order: 9;
+}
+
+[dir="rtl"] test {
+	order: 10;
+}
+
+[dir="rtl"] test * {
+	order: 11;
+}
+
+[dir="rtl"] test * test {
+	order: 12;
+}
+
+[dir="rtl"] test {
+	order: 13;
+}
+
+[dir="rtl"] test test {
+	order: 14;
+}
+
+[dir="rtl"] test test {
+	order: 15;
+}
+
+[dir="rtl"]:root * {
+	order: 16;
+}
+
+html[dir="rtl"] * {
+	order: 17;
+}
